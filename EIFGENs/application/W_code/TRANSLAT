@@ -1,0 +1,9 @@
+application	ACCOUNT	make	F860_6954	C1/ac860.c
+application	ACCOUNT	balance	F860_6955	C1/ac860.c
+application	ACCOUNT	credit_limit	F860_6956	C1/ac860.c
+application	ACCOUNT	available_amount	F860_6957	C1/ac860.c
+application	ACCOUNT	set_credit_limit	F860_6958	C1/ac860.c
+application	ACCOUNT	deposit	F860_6959	C1/ac860.c
+application	ACCOUNT	withdraw	F860_6960	C1/ac860.c
+application	ACCOUNT	transfer	F860_6961	C1/ac860.c
+application	APPLICATION	make	F861_6962	C1/ap861.c

@@ -1,0 +1,120 @@
+
+bank_account: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+ACCOUNT             deposit @1             amount_non_negative:         
+<0000005AE7E02648>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+TEST                test_account_fail @3                                
+<0000005AE7E025E8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @3                                             
+<0000005AE7E025A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000005AE7E025A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+bank_account: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+ACCOUNT             withdraw @2            amount_available:            
+<000000E2B755F648>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+TEST                test_account_fail @6                                
+<000000E2B755F5E8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @3                                             
+<000000E2B755F5A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<000000E2B755F5A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+bank_account: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+ACCOUNT             set_credit_limit @1    limit_valid:                 
+<00000059618BE648>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+TEST                test_account_fail @11                               
+<00000059618BE5E8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @3                                             
+<00000059618BE5A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<00000059618BE5A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+bank_account: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+ACCOUNT             set_credit_limit @1    limit_valid:                 
+<0000004F2368B928>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+TEST                test_account_fail @11                               
+<0000004F2368B5E8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @4                                             
+<0000004F2368B5A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000004F2368B5A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+bank_account: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+ACCOUNT             set_credit_limit @1    limit_valid:                 
+<00000032A03D4648>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+TEST                test_account_fail @9                                
+<00000032A03D45E8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @3                                             
+<00000032A03D45A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<00000032A03D45A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+
+bank_account: PANIC: caught signal #21 (Ctrl-Break) -- Giving up...
+
+bank_account: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+ACCOUNT             set_credit_limit @1    limit_valid:                 
+<000000ED2401C648>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+TEST                test_account_fail @9                                
+<000000ED2401C5E8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @3                                             
+<000000ED2401C5A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<000000ED2401C5A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+
+bank_account: PANIC: caught signal #21 (Ctrl-Break) -- Giving up...
